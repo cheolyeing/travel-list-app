@@ -1,7 +1,13 @@
 import React from "react";
 
+import { Map } from "./components/Map";
+
 function App() {
-  return <div>Empty</div>;
+  return (
+    <div>
+      <Map />
+    </div>
+  );
 }
 
 export default App;
